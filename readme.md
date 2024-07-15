@@ -30,7 +30,17 @@ This experiment is implemented using conda v24.5.0 environment.
 
 #### Download Dataset 
 
-You can download the dataset from the following link:
+##### Dataset in CPG (required by GGNN training)
+
+You can download the dataset in CPG from the following link:
+
+https://drive.google.com/file/d/1y3NSNsUj_IfiEAgyE_xpXcpi3wxdH5Av/view?usp=drive_link
+
+Then unzip the `data-process.zip` file and put it in the project folder.
+
+##### Embedded Dataset (required by GAT training)
+
+You can download the embedded dataset from the following link:
 
 https://drive.google.com/file/d/1M_OA3ZduIGVb0GvkxzKi3NkeJgCR1Omy/view?usp=drive_link
 

@@ -214,12 +214,12 @@ if (opt_project == "qemu"):
     cfg['n_hid'] = 64
     cfg['lr'] = 0.01
     cfg['drop_out'] = 0.3
-    cfg['max_epoch'] = 150
+    cfg['max_epoch'] = 200
 elif (opt_project == "ffmpeg"):
     cfg['project'] = "ffmpeg"
-    cfg['n_hid'] = 128
-    cfg['lr'] = 0.003
-    cfg['drop_out'] = 0.5
+    cfg['n_hid'] = 32
+    cfg['lr'] = 0.01
+    cfg['drop_out'] = 0.1
     cfg['max_epoch'] = 50
 elif (opt_project == "reveal"):
     cfg['project'] = "reveal"
